@@ -10,8 +10,8 @@
     "128": "icons/icon128.png"
   },
   "browser_action": {
-    "default_icon": "icons/icon19.png",
-    "default_title": "browser action demo",
+    "default_icon": "icons/icon16.png",
+    "default_title": "倒數計時器",
     "default_popup": "src/browser_action/browser_action.html"
   },
   "options_page":"src/option/option.html",
