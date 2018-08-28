@@ -4,6 +4,7 @@
 
 - todo list
     - [ ] beautify option page and popup page
+    - [ ] let countdown date can mark its name ex.Christmas...etc
     - [ ] let user can add multiple dates
     - [ ] custom icons
     - [ ] add modern dev and travis, test ..etc

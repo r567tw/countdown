@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="../../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <title>管理頁面</title>
 </head>
+
 <body>
     <div class="container">
-        <label for="limit">請選擇要倒數的日期</label>
-        <input type="date" id="limit">
-        <input type="submit" value="儲存" id="send">
+        <div class="jumbotron">
+            <h1 class="display-4">倒數計時器</h1>
+            <p class="lead">倒數屬於你重要的日子</p>
+            <hr class="my-4">
+            <p>提供設定你要設定倒數的日子。</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Reset</a>
+        </div>
+        <div class="form-group">
+            <label for="limit">請選擇要倒數的日期</label>
+            <input type="date" class="form-control" id="limit" aria-describedby="limitHelp" placeholder="欲倒數的日子">
+            <small id="limitHelp"" class="form-text text-muted">填上你/妳想倒數的日子</small>
+        </div>
+        <input type="submit" value="儲存" id="send" class="btn btn-primary">
     </div>
     <script src="option.js"></script>
     <script src="../../js/jquery-3.3.1.min.js"></script>
-	<script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
 </body>
+
 </html>
