@@ -20,8 +20,9 @@
         </div>
         <div class="form-group">
             <label for="limit">請選擇要倒數的日期</label>
-            <input type="date" class="form-control" id="limit" aria-describedby="limitHelp" placeholder="欲倒數的日子">
-            <small id="limitHelp"" class="form-text text-muted">填上你/妳想倒數的日子</small>
+            <input type="text" class="form-control countDownName" id="limitName" placeholder="請輸入你對此日子的命名">
+            <input type="date" class="form-control countDownDate" id="limitDate" aria-describedby="limitHelp" placeholder="欲倒數的日子">
+            <small id="limitHelp" class="form-text text-muted">填上你/妳想倒數的日子</small>
         </div>
         <input type="submit" value="儲存" id="send" class="btn btn-primary">
     </div>
