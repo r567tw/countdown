@@ -3,10 +3,11 @@
 - Currently: dev version/continue dev
 
 - todo list
-    - [ ] beautify option page and popup page
-    - [x] let countdown date can mark its name ex.Christmas...etc
-    - [x] let user can add multiple dates
-    - [ ] refactoring code
-    - [ ] custom icons
-    - [ ] add modern dev and travis, test ..etc
-
+  - [x] beautify option page and popup page
+  - [x] let countdown date can mark its name ex.Christmas...etc
+  - [x] let user can add multiple dates
+  - [ ] refactoring code (vuejs,use some plugin)
+  - [ ] custom icons
+  - [ ] dark mode switcher
+  - [ ] add modern dev and travis, test ..etc
+  - [ ] deploy to chrome app store
