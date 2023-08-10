@@ -1,6 +1,6 @@
 {
-  "name": "倒數計時器",
-  "version": "0.0.1",
+  "name": "__MSG_extensionName__",
+  "version": "0.1.0",
   "manifest_version": 3,
   "description": "倒數屬於你重要的日子",
   "homepage_url": "http://extensionizr.com",
