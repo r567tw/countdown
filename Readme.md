@@ -1,16 +1,19 @@
 # countDown plugin
 
-- Currently: dev version/continue dev
 
-- todo list
+## todo list
   - [x] beautify option page and popup page
   - [x] let countdown date can mark its name ex.Christmas...etc
-  - [x] let user can add multiple dates
-  - [ ] refactoring code (vuejs,use some plugin)
-  - [ ] custom icons
+  - [ ] refactoring code , resetting (Vanilla JS) => one date
+  - [ ] only support 1 date
+  - [ ] icon custom
+  - [ ] deploy to Chrome Store
+
+
+## Future Idea
+  - [ ] refactoring code (use Vue)
   - [ ] dark mode switcher
-  - [ ] add modern dev and travis, test ..etc
-  - [ ] deploy to chrome app store
-  - [ ] delete 1 countdown date
-  - [ ] add every year loop feature
+  - [ ] github action CI
+  - [ ] Multiple Date Management
+  - [ ] Loop Every year loop 
   
