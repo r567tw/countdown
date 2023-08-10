@@ -1,7 +1,7 @@
 {
   "name": "倒數計時器",
   "version": "0.0.1",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "倒數屬於你重要的日子",
   "homepage_url": "http://extensionizr.com",
   "icons": {
@@ -9,12 +9,12 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "browser_action": {
-    "default_icon": "icons/icon16.png",
+  "default_locale": "en",
+  "action": {
     "default_title": "倒數計時器",
     "default_popup": "src/browser_action/browser_action.html"
   },
-  "options_page":"src/option/option.html",
+  "options_page": "src/option/option.html",
   "permissions": [
     "storage"
   ]
