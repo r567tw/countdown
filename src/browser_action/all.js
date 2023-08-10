@@ -1,6 +1,6 @@
 var countdownDom = document.getElementById("countdown");
 
-chrome.storage.sync.get("countDownConfig", function(result) {
+chrome.storage.sync.get("countDownConfig", function (result) {
   config = result.countDownConfig;
   len = result.countDownConfig.length;
   now = new Date().getTime();
@@ -28,5 +28,6 @@ chrome.storage.sync.get("countDownConfig", function(result) {
         countdownNumber +
         "天</div>";
     }
+    chrome.action.setBadgeText({ text: countdownNumber.toString() });
   }
 });
