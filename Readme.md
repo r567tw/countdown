@@ -15,5 +15,6 @@
   - [ ] dark mode switcher
   - [ ] github action CI to chrome store
   - [ ] Multiple Date Management
-  - [ ] Loop Every year loop feature 
+  - [ ] Loop Every year loop feature
+  - [ ] Multiple language support 
   
