@@ -4,13 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="../../css/bootstrap.min.css">
-	<title>Result</title>
 	<style>
 		body {
-			min-width: 20em;
-
+			min-width: 15rem;
+			margin: 0px;
+			padding: 0px;
 		}
 
 		#title {
@@ -34,21 +32,21 @@
 
 		#footer {
 			display: flex;
-			width: 100%;
 			flex-direction: row;
 			justify-content: space-around;
+			background-color: #f0f0f0;
+			width: 100%;
+			padding-top: 10px;
+			padding-bottom: 10px;
 		}
 	</style>
 </head>
 
 <body>
-	<div class="container-fluid">
-		<hr />
+	<div>
 		<div id="countdown"></div>
-		<hr />
 		<div id="footer">
-			<a href="../option/option.html" target="_blank">Option</a>
-			<a href="#">Author</a>
+			<a id="setting" href="../option/option.html" target="_blank">Extension Option</a>
 		</div>
 	</div>
 	<script src="all.js"></script>
