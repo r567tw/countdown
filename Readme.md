@@ -6,7 +6,7 @@
   - [x] let countdown date can mark its name ex.Christmas...etc
   - [x] refactoring code , resetting (Vanilla JS) => one date
   - [x] only support 1 date
-  - [ ] icon custom
+  - [X] icon custom
   - [ ] deploy to Chrome Store
 
 

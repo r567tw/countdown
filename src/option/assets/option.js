@@ -50,7 +50,7 @@ resetDom.addEventListener("click", function () {
         var countDownConfig = [];
         var today = new Date();
         var ThisYearCountDown = today.getFullYear() + '-12-31';
-        countDownConfig.push({ DateName: '跨年倒數', DateVal: ThisYearCountDown, HasBeenUploadedYet: false });
+        countDownConfig.push({ DateName: '跨年', DateVal: ThisYearCountDown, HasBeenUploadedYet: false });
         chrome.storage.sync.set({ countDownConfig: countDownConfig }, function () {
             alert('重設成功')
             window.location.reload()

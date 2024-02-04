@@ -12,7 +12,7 @@
   "default_locale": "en",
   "action": {
     "default_title": "倒數計時器",
-    "default_popup": "src/browser_action/browser_action.html"
+    "default_popup": "src/browser_action/popup.html"
   },
   "options_page": "src/option/option.html",
   "permissions": [

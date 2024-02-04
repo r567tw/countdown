@@ -1,0 +1,79 @@
+/* 確保頁面有足夠的邊距，並使用 Google 字體 */
+body {
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 容器樣式 */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    background-color: #ffffff;
+}
+
+/* 頁面主要提示信息的樣式 */
+.jumbotron {
+    text-align: left;
+    margin-bottom: 30px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* 按鈕樣式 */
+.btn {
+    color: #ffffff;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover,
+.btn-info:focus {
+    background-color: #138496;
+    border-color: #138496;
+}
+
+/* 輸入框的樣式 */
+.label {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+/* 增加媒體查詢以改善響應式設計 */
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
